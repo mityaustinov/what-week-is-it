@@ -5,10 +5,11 @@
     "version": "0.1.0",
     "version_name": "0.1.0",
     "description": "Displays the number of the current week of the year. Not more, not less.",
-    "author": "Mitya Ustinov",  
+    "author": "Mitya Ustinov",
     "homepage_url": "https://github.com/mityaustinov/what-week-is-it",
     "permissions": [
-        "alarms"
+        "alarms",
+        "offscreen"
     ],
     "action": {
         "default_icon": "/assets/icons/extension/icon128.png",
@@ -26,7 +27,7 @@
     },
     "web_accessible_resources": [
         {
-            "resources": ["/assets/icons/numbers/*.png"],
+            "resources": ["/assets/icons/numbers/light/*.png", "/assets/icons/numbers/dark/*.png"],
             "matches": ["<all_urls>"]
         }
     ]
